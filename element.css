@@ -1,0 +1,358 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* header/menu-list/menu-bar*/
+
+.header {
+    width: 100%;
+    background-color: #c9ac4d;
+}
+
+.header-title{
+    font-size: 20pt;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.container {
+    font: bold;
+}
+
+.nav-wrapper {
+    color: black;
+    width: 100%;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left-side {
+    padding: .5rem 0 0 .5rem;
+}
+
+.left-side a, .left-side span {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.left-side a img {
+    height: 100px;
+
+}
+
+.nav-list {
+    flex: 1;
+    text-align: right;
+    padding: 1rem;
+    padding-top: 0.5rem;
+}
+
+.nav-list a {
+    margin-left: 1rem;
+    color:black;
+}
+
+.nav-list a:hover {
+    color:white;
+}
+.nav-bar {
+    background-color: rgb(87, 87, 87);
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+.nav-bar a {
+    margin-right: 1rem;
+    display: inline-block;
+    padding: 14px 16px;
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background-color: rgb(39, 39, 39);
+    color:#c9ac4d;
+}
+
+
+.search-container {
+    display: inline;
+    float: right;
+    font-size: 15px;
+    height: 15px;
+}
+
+.search-container button {
+    float: right;
+    background: #ddd;
+    font-size: 15px;
+    height: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .search-container button:hover {
+    background: rgb(173, 173, 173);
+  } */
+  
+/* @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+      padding: none; */
+
+.topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 1rem;
+    }
+
+.topnav input[type=text] {
+      border: none;  
+    }
+.menu-header {
+    border-bottom: 3px solid #333;
+}
+
+.buy-ticket {
+    display: inline-block;
+    background-color: black;
+    padding: .5rem .5rem;
+}
+
+/* index*/
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 33% 33% 33%;
+    width:100%;
+    }
+    
+    .grid-container > div {
+        font-size: 15px;
+      }
+
+      .grid-item{
+          padding: 10px;
+      }
+    
+.container-content{
+    margin: 1rem;
+}
+/* cinema*/
+input[type=text], select, textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding:13.5px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #ccc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ccc;
+  }
+  
+  .icon{
+      height: 15px;
+      width: 15px;
+  }
+
+.container-contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/* .container-content{
+  margin: 50px;}
+
+} */
+
+/* Movies*/
+
+.movies-list{
+display: flex;    
+padding: 1rem;
+margin:1rem;
+
+}
+
+.movie-thumb{
+    padding: .5rem;
+}
+
+
+
+/* Schedule*/
+.movie-container{
+    padding: 1rem;
+
+}
+
+
+.movie-schedule-wrapper{
+    background-color: #ddd;
+}
+
+.schedule{
+    padding:8px ;
+
+}
+.movie-schedule {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: white;
+
+  }
+
+ .movie-schedule td, .customers th {
+    background-color: #ddd;
+    padding:10px ;
+  }
+  
+ .movie-schedule tr:nth-child(even){
+     background-color: white;
+
+    }
+  
+ .movie-schedule tr:hover {
+     background-color: rgb(179, 178, 178);
+    }
+  
+ .movie-schedule th {
+    padding : 12px;
+    text-align: left;
+    background-color: white;
+    color: black;
+  }
+.movie-schedule .table .button{
+    float:right;
+    display:flex;
+    padding : 12px;
+}
+
+
+/* Film for change */
+
+/* booking*/
+* {
+    box-sizing: border-box;
+  }
+
+.Booking-wrapper{
+  margin: 2rem;
+}
+
+.Booking-container{
+  display: inline;
+}
+
+
+
+.col-25{
+  display: inline-block;
+  float: right;
+  width: 25%;
+  padding-left: 2rem;
+}
+  
+  .Booking {
+    width: 75%;
+    float: left;
+    background-color: #ddd;
+    padding: 1rem;
+  }
+
+.label {
+    margin-bottom: 10px;
+    display: block;
+    padding: .5rem;
+  }
+
+
+  /* .col-25 {
+    margin-bottom: 20px;
+  }
+}
+  .Booking{
+    display: inline-block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  } 
+  
+.col-25 {
+    width: 25%;
+  }
+  
+  .col-50 {
+    flex: 50%; IE10
+    width: 50%;
+  }
+  
+  .col-75 {
+    flex: 75%; IE10 */
+    /* width: 75%;
+  }
+  
+  
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  } */
+  
+  .btn {
+    background-color: #c9ac4d;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #b1b1b1;
+  }
+  
+  a {
+    color: #202020;
+  }
+  
+  hr {
+    border: 1px solid rgb(155, 153, 153);
+  }
+  
+  span.price {
+    float: right;
+    color: rgb(70, 69, 69);
+  }
