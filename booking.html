@@ -111,16 +111,24 @@
 
     <div class="col-25">
       <div class="container-cart">
-        <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
-        <p><a href="#">Adult Ticket</a> <span class="price">$15</span></p>
-        <p><a href="#">Popcorn</a> <span class="price">$5</span></p>
-        <p><a href="#">Child Ticket</a> <span class="price">$8</span></p>
-        <p><a href="#">Ice-cream</a> <span class="price">$2</span></p>
-        <hr>
-        <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+        <h4>Summary  <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> </span></h4>
+         <p>Seats you have selected: <span id="count" >0</span></p>
+        <p>Total price: <span id="total" >0</span></p>
+        
+        <div class="movie-container">
+          <label>Add on: </label>
+          <select id="add-on">
+            <option value="8">Popcorn ($8)</option>
+            <option value="3">Ice-cream ($3)</option>
+            <option value="5">Soft-drinks ($5)</option>
+            <option value="5">Tea/ Coffee ($5)</option>
+          </select>
+        </div>
+        
       </div>
     </div>
   </div>
+  <script src="booking.js"></script>
 
 </body>
 
